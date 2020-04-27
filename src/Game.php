@@ -14,7 +14,7 @@ use App\Model\Game as GameModel;
  */
 class Game
 {
-    private const NUMBER_OF_GAMES = 20;
+    private const NUMBER_OF_GAMES = 100;
 
     /**
      * @var Aplayer $aPlayer

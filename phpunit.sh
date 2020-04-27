@@ -1,1 +1,1 @@
-vendor/bin/phpunit --bootstrap vendor/autoload.php  src/tests/
+vendor/bin/phpunit --bootstrap vendor/autoload.php tests/

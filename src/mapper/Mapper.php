@@ -73,9 +73,9 @@ abstract class Mapper
 
     /**
      * @param array $array
-     * @return mixed
+     * @return DomainObject
      */
-    public function createObject(array $array)
+    public function createObject(array $array): DomainObject
     {
         return $this->doCreateObject($array);
     }
